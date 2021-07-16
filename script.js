@@ -65,11 +65,9 @@ function criarBarras() {
     barra.style.backgroundColor = "red";
     barras.appendChild(barra);
     positionArray++;
-    
-
+  
   }
   
-
 }
 
 criarBarras();

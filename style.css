@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#principal {
+    max-width: 768px;
+    margin: auto;
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+   
+
+}
