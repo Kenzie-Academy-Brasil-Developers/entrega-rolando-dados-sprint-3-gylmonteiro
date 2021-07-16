@@ -4,11 +4,20 @@ body {
 }
 
 #principal {
+    padding: 30px;
     max-width: 768px;
-    margin: auto;
+    margin: 100px auto;
     display: flex;
+    background-color: beige;
+    font-size: 10px;
 }
 
+div {
+    
+    padding: 5px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+}
 @media screen and (max-width: 768px) {
    
 

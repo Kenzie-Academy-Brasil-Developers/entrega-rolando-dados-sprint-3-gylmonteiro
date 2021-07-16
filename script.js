@@ -61,7 +61,7 @@ function criarBarras() {
     const barras = document.getElementById("resultado");
     const barra = document.createElement("div");
     barra.style.width = `${frequencias[positionArray][1]}`+"px";
-    barra.innerHTML += i + ": " + frequencias[positionArray][1] + "<br>";
+    barra.innerHTML += i 
     barra.style.backgroundColor = "red";
     barras.appendChild(barra);
     positionArray++;
